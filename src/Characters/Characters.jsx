@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, {useEffect, useState} from 'react'
-import {CardList, Container, Card, Input} from './card'
+import {CardList, Container, Card, Input, InputDiv} from './card'
 
 
 const Characters = () => {
@@ -20,10 +20,10 @@ const Characters = () => {
     const filteredCharacters = characters.filter(characters => characters.name.toLowerCase().includes(search.toLowerCase()))
   return (
                 <>
-                <form action="">
-                    <Input>
-                        <input type="text" onChange={handleChange} placeholder='Search..'/>
-                    </Input>
+                <form>
+                    <InputDiv>
+                        <Input type="text" onChange={handleChange} placeholder='Search character..'/>
+                    </InputDiv>
                 </form>
         <Container>
               <CardList>
@@ -36,7 +36,9 @@ const Characters = () => {
                               <p>Masters: {characters.masters}</p>
                               <p>Apprentices: {characters.apprentices}</p>
                               <p>Born: {characters.born}</p>
+                              <p>Born Location: {characters.bornLocation}</p>
                               <p>Died: {characters.died}</p>
+                              <p>Died Location: {characters.diedLocation}</p>
                           </Card>
 
                       )

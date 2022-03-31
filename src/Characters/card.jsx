@@ -14,7 +14,7 @@ export const CardList = styled.div`
 
 export const Card = styled.div`
     background-color: yellow;
-    height: 390px;
+    height: 400px;
     width: 250px;
     margin: 5px;
     border-radius: 10px;
@@ -26,10 +26,15 @@ export const Card = styled.div`
         padding: 5px;
         text-align: justify;
         color: #000;
+        line-height: 0.9;
+    }
+
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     img{
-        height: 350px;
+        height: 367px;
         width: 100%;
         background-size: cover;
 
@@ -44,9 +49,16 @@ export const Card = styled.div`
 
 `;
 
-export const Input = styled.style`
+export const Input = styled.input`
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 2px solid yellow;
+`;
+
+export const InputDiv = styled.div`
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: -50px;
+    padding-top: 85px;
 `;
