@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <Global/>
       <BrowserRouter>
-      <AppRoutes/> 
+        <AppRoutes/> 
       </BrowserRouter>
     </div>
   )

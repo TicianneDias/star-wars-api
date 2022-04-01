@@ -15,12 +15,15 @@ export const Container = styled.div`
         font-family: 'Star Wars';
         display: flex;
         align-items: center;
+        @media (max-width: 816px){
+                top: 55%;
+        }
         
 span {
         color: white;
         font-size: 2.5rem;
 
-        @media (max-width: 800px){
+        @media (max-width: 816px){
                 font-size: 1.7rem;
         }
 }
