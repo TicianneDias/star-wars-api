@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.main`
     display: flex;
     flex-wrap: wrap;
+    margin: 0 5rem;
    
 `;
 
@@ -60,5 +61,5 @@ export const Input = styled.input`
 export const InputDiv = styled.div`
     display: flex;
     justify-content: center;
-    padding-top: 85px;
+    padding-top: 120px;
 `;

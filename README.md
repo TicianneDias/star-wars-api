@@ -28,6 +28,12 @@ Projeto desenvolvido para se aventurar no mundo de Star Wars através de duas de
 🚧 Projeto ainda em fase de construção. 🚧
 <br>
 Para checar como está ficando, <a href="https://incandescent-crumble-1c3065.netlify.app/">clique aqui.</a>
+<br><br>
+Aplicarei / colocarei:
+    <ul>
+        <li>Consumo de outra API de Star Wars (Movies)</li>
+        <li>Jogo da memória com Cards de Star Wars (Game)</li>
+    </ul>
 
 <br> <br> <br>
 
@@ -41,15 +47,10 @@ Para checar como está ficando, <a href="https://incandescent-crumble-1c3065.net
     <li>Consumo de API com axios</li>
     <li>React Hooks: useState, useEffect</li>
     <li>Styled-Components</li>
+    <li>React Router Dom</li>
 
 </ul>
 
-Aplicarei / colocarei:
-    <ul>
-        <li>React Router Dom</li>
-        <li>Consumo de outra API de Star Wars</li>
-        <li>Jogo da memória com Cards do filme</li>
-    </ul>
 
 <br> <br> <br>
 

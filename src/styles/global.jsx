@@ -15,8 +15,7 @@ export default createGlobalStyle`
     }
 
     body{
-        margin: 0 50px;
-        background: black;
+        background: #000;
     }
 
     main {
@@ -24,4 +23,5 @@ export default createGlobalStyle`
         margin: 0 auto;
         padding: 5rem 1.2rem;
 }
+
 `;

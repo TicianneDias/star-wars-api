@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import LOGO from './logo.svg'
 import {Nav, Logo, Hamburger, MenuLink, Menu} from './styles'
 
+
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
@@ -15,10 +16,20 @@ const NavBar = () => {
                 <span/>
             </Hamburger>
             <Menu isOpen={isOpen}>
-                <MenuLink href="">HOME</MenuLink>
-                <MenuLink href="">CHARACTERS</MenuLink>
-                <MenuLink href="">MOVIES</MenuLink>
-                <MenuLink href="">GAME</MenuLink>
+                
+                    
+                <MenuLink to="/">HOME</MenuLink>
+                    
+                    
+                <MenuLink to="/Characters">CHARACTERS</MenuLink>
+                    
+                    
+                <MenuLink to="/Movies">MOVIES</MenuLink>
+                    
+                    
+                <MenuLink to="/Game">GAME</MenuLink>
+                    
+     
             </Menu>
         </Nav>
   )

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Nav = styled.div`
     background: yellow;
@@ -39,7 +40,7 @@ export const Menu = styled.div`
         width: 100%;
     }
 `;
-export const MenuLink = styled.a`
+export const MenuLink = styled(Link)`
     padding: 1rem 2rem;
     font-family: 'Star Wars';
     cursor: pointer;
@@ -51,9 +52,9 @@ export const MenuLink = styled.a`
     font-size: 1.2rem;
     &:hover {
         transition: all 0.6s ease-in-out;
-        color: #DBA90D;
+        color: white;
         padding: 15px;
-        border-bottom: 2px solid #DBA90D;
+        border-bottom: 2px solid white;
     }
 `;
 

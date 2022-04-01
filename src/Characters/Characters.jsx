@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, {useEffect, useState} from 'react'
+import NavBar from '../NavBar/NavBar'
 import {CardList, Container, Card, Input, InputDiv} from './card'
 
 
@@ -20,6 +21,7 @@ const Characters = () => {
     const filteredCharacters = characters.filter(characters => characters.name.toLowerCase().includes(search.toLowerCase()))
   return (
                 <>
+                <NavBar/>
                 <form>
                     <InputDiv>
                         <Input type="text" onChange={handleChange} placeholder='Search character..'/>
