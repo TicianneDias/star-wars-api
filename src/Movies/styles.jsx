@@ -5,9 +5,15 @@ export const Container = styled.div`
     flex-wrap: wrap;
     margin: 0 7rem;
     padding-top: 150px;
+    padding-bottom: 50px;
+    
+    @media(max-width: 816px) {
+        margin:  auto;
+    }
     `;
 
 export const List = styled.div`
+    gap: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -21,10 +27,10 @@ export const List = styled.div`
 `;
 
 export const Movie = styled.div`
-    padding: 15px;
+    
     border: 1px solid yellow;
     border-radius: 5px;
-    height: 450px;
+    height: 700px;
     width: 250px;
     margin: 5px;
     overflow: hidden;
@@ -42,5 +48,16 @@ export const Movie = styled.div`
     }
     p {
         color: white;
+        text-align: justify;
     }
+
+    h1, p {
+        padding: 6px;
+    }
+`;
+
+export const IMG = styled.img`
+    width: 250px;
+    height: 200px;
+    padding: 0;
 `;

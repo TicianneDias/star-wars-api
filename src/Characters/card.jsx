@@ -4,6 +4,10 @@ export const Container = styled.main`
     display: flex;
     flex-wrap: wrap;
     margin: 0 5rem;
+
+    @media(max-width: 816px) {
+        margin: 0 auto;
+    }
    
 `;
 
