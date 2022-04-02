@@ -31,7 +31,6 @@ Para checar como está ficando, <a href="https://incandescent-crumble-1c3065.net
 <br><br>
 Aplicarei / colocarei:
     <ul>
-        <li>Consumo de outra API de Star Wars (Movies)</li>
         <li>Jogo da memória com Cards de Star Wars (Game)</li>
     </ul>
 
