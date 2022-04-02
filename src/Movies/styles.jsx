@@ -30,7 +30,7 @@ export const Movie = styled.div`
     
     border: 1px solid yellow;
     border-radius: 5px;
-    height: 700px;
+    height: 730px;
     width: 250px;
     margin: 5px;
     overflow: hidden;
