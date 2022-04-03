@@ -28,15 +28,14 @@ export const List = styled.div`
 
 export const Movie = styled.div`
     
-    border: 1px solid yellow;
-    border-radius: 5px;
+    border: 1px solid #f2ff3d;
+    border-radius: 15px;
     height: 730px;
     width: 250px;
     margin: 5px;
     overflow: hidden;
     
     &:hover {
-        box-shadow: 3px 2px 2px white;
         border-color: white;
         background-color: #101010;
     }
