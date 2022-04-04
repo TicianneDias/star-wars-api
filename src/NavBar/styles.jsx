@@ -12,6 +12,7 @@ export const Nav = styled.div`
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99999;
 `;
 
 export const Logo = styled.a`

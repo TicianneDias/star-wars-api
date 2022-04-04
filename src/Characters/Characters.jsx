@@ -33,7 +33,7 @@ const Characters = () => {
                   {filteredCharacters.map(characters => {
                       return (
                           <Card key={characters.id}>
-                              <img src={characters.image} />
+                              <img src={characters.image}  alt={`Picture of ${characters.name}`}/>
                               <h3>{characters.name}</h3>
                               <p>Masters: {characters.masters}</p>
                               <p>Apprentices: {characters.apprentices}</p>
