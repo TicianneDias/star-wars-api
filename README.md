@@ -13,7 +13,7 @@
 
 ## 🎞 Demo: <a id="demo"></a>
 <div align="center">
-    <img alt="Demonstração do site Star Wars API na parte dos cards de personagens" style="width:600px">
+    <img alt="Demonstração do site Star Wars API na parte dos cards de personagens" src="page.gif" style="width:600px">
 </div>
 
 <br> <br> <br>
@@ -23,16 +23,11 @@
 <br> <br> <br>
 
 ## 💡 Sobre: <a id="sobre"></a>
-Projeto desenvolvido para se aventurar no mundo de Star Wars através de duas de suas API, utilizando Styled-Components para o CSS.
+Projeto desenvolvido para se aventurar no mundo de Star Wars através de duas de suas API, utilizando Styled-Components em maior parte para o CSS.
+
 <br>
-🚧 Projeto ainda em fase de construção. 🚧
-<br>
-Para checar como está ficando, <a href="https://incandescent-crumble-1c3065.netlify.app/">clique aqui.</a>
+Para checar, <a href="https://incandescent-crumble-1c3065.netlify.app/">clique aqui.</a>
 <br><br>
-Aplicarei / colocarei:
-    <ul>
-        <li>Jogo da memória com Cards de Star Wars (Game)</li>
-    </ul>
 
 <br> <br> <br>
 
@@ -43,10 +38,11 @@ Aplicarei / colocarei:
 ## 💻 Tecnologias: <a id="tecnologias"></a>
 <ul>
     <li>React.js</li>
-    <li>Consumo de API com axios</li>
-    <li>React Hooks: useState, useEffect</li>
-    <li>Styled-Components</li>
     <li>React Router Dom</li>
+    <li>React Hooks: useState, useEffect</li>
+    <li>Consumo de API com axios</li>
+    <li>Styled-Components</li>
+    <li>CSS</li>
 
 </ul>
 
