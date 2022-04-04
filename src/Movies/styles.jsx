@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {keyframes} from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
@@ -60,3 +60,52 @@ export const IMG = styled.img`
     height: 200px;
     padding: 0;
 `;
+
+
+export const SideToSide = keyframes`
+    0% {
+        background: yellow;
+        box-shadow: 0 0 10px yellow;
+        width: 100px;
+        left: 0;
+        
+    }
+
+    25% {
+        background: yellow;
+        box-shadow: 0 0 10px yellow;
+        width: 300px;
+        left: 0;
+    }
+    50% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+        width: 100px;
+        left: 90px;
+    }
+    75% {
+        background: greenyellow;
+        box-shadow: 0 0 10px greenyellow;
+        width: 300px;
+        left: 0;
+    }
+    100% {
+        background: yellow;
+        box-shadow: 0 0 10px yellow;
+        width: 100px;
+        left: 0;
+    }
+    `;
+
+export const Loading = styled.div`
+        margin: 150px auto;
+        height: 15px;
+        border-radius: 5px;
+        background-color: yellow;
+        box-shadow: 0 0 10px yellow;
+        animation: ${SideToSide} 2s ease infinite;
+
+        @media(max-width: 800px) {
+            margin: 350px auto;
+        }
+    `;

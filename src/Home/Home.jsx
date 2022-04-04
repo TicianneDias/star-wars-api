@@ -24,6 +24,9 @@ const Home = () => {
             .deleteAll()
             .typeString("May the Force Be With You!")
             .pauseFor(5000)
+            .deleteAll()
+            .typeString("")
+            .pauseFor(2000)
             .start()
           }}
         />
