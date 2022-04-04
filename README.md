@@ -13,7 +13,7 @@
 
 ## 🎞 Demo: <a id="demo"></a>
 <div align="center">
-    <img alt="Demonstração do site Star Wars API na parte dos cards de personagens" src="page.gif" style="width:600px">
+    <img alt="Demonstração do site Star Wars API na parte dos cards de personagens" style="width:600px">
 </div>
 
 <br> <br> <br>
