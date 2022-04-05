@@ -29,6 +29,7 @@ const Game = () => {
   const [choiceOne, setChoiceOne] = useState(null)
   const [choiceTwo, setChoiceTwo] = useState(null)
   const [disabled, setDisabled] = useState(false)
+  const [correct, setCorrect] = useState(0)
 
   const shuffleCards = () => {
     const shuffledCards = [...cardsImages , ...cardsImages]
@@ -38,6 +39,7 @@ const Game = () => {
           setCards(shuffledCards)
           setChoiceOne(null)
           setChoiceTwo(null)
+          setCorrect(0)
           setTurns(0)
   }
 
@@ -53,8 +55,9 @@ const Game = () => {
         setCards(prevCards => {
           return prevCards.map(card => {
             if(card.src === choiceOne.src) {
+              setCorrect(answer => answer + 1)
               return {...card, matched:true}
-            } else {
+            }  else {
               return card
             }
           })
@@ -65,6 +68,12 @@ const Game = () => {
       }
     }
   }, [choiceOne, choiceTwo])
+
+  useEffect(() => {
+    if(correct === 32) {
+      setTimeout(() => window.alert("Congratulations! You win!"), 1000)
+    }
+  },[correct])
 
   const resetTurn = () => {
     setChoiceOne(null)
