@@ -71,7 +71,7 @@ const Game = () => {
 
   useEffect(() => {
     if(correct === 32) {
-      setTimeout(() => window.alert("Congratulations! You win!"), 1000)
+      setTimeout(() => alert("Congratulations! You win!"), 1000)
     }
   },[correct])
 
