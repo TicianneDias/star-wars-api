@@ -18,6 +18,31 @@ export default createGlobalStyle`
         background: #000;
     }
 
+    ::-webkit-scrollbar-track
+{
+	background-color: #101010;
+
+    &:hover{
+        background-color: yellow;
+    }
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: yellow;
+	border: 2px solid #555555;
+
+    &:hover{
+        background-color: black;
+    }
+}
+
     main {
         max-width: 100rem;
         margin: 0 auto;

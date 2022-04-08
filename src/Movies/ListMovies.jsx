@@ -18,7 +18,7 @@ import IMG13 from './image/13.jpg'
 const ListMovies = () => {
   const [movies, setMovies] = useState([])
   const otherMovies = [{
-    id: 1,
+    id: 7,
     image: IMG7,
     episode: 7, 
     title: 'The Force Awakens',
@@ -27,7 +27,7 @@ const ListMovies = () => {
     sinopse: 'Luke Skywalker has vanished. In his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed. With the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy. Leia has sent her most daring pilot on a secret mission to Jakku, where an old ally has discovered a clue to Luke’s whereabouts ….'
   },
     {
-    id: 2,
+    id: 8,
     image: IMG8,
     episode: 8, 
     title: 'The Last Jedi',
@@ -36,7 +36,7 @@ const ListMovies = () => {
     sinopse: 'The FIRST ORDER reigns. Having decimated the peaceful Republic, Supreme Leader Snoke now deploys his merciless legions to seize military control of the galaxy. Only General Leia Organa’s band of RESISTANCE fighters stand against the rising tyranny, certain that Jedi Master Luke Skywalker will return and restore a spark of hope to the fight. But the Resistance has been exposed. As the First Order speeds toward the rebel base, the brave heroes mount a desperate escape....',
   },
   {
-    id: 3,
+    id: 9,
     image: IMG9,
     episode: 9, 
     title: 'The Rise of Skywalker',
@@ -46,7 +46,7 @@ const ListMovies = () => {
     
   },
   {
-    id: 4,
+    id: 10,
     image: IMG13,
     title: 'Rogue One: A Star Wars Story',
     director: 'Gareth Edwards',
@@ -55,7 +55,7 @@ const ListMovies = () => {
     
   },
   {
-    id: 5,
+    id: 11,
     image: IMG10,
     title: 'Solo: A Star Wars Story',
     director: 'Ron Howard',
@@ -64,7 +64,7 @@ const ListMovies = () => {
     
   },
   {
-    id: 6,
+    id: 12,
     image: IMG11,
     title: 'The Mandalorian (TV Series)',
     director: 'Jon Favreau',
@@ -73,7 +73,7 @@ const ListMovies = () => {
     
   },
   {
-    id: 7,
+    id: 13,
     image: IMG12,
     title: 'The Book of Boba Fett (TV Series)',
     director: 'Jon Favreau',
@@ -115,17 +115,17 @@ const ListMovies = () => {
             
             )
           })}
-        {otherMovies.map(({title, image, sinopse, director, id, dateMovie, episode}) => { 
+        {otherMovies.map(({id, title, image, sinopse, director, dateMovie, episode}) => { 
       return(
         <>
         
         <Movie key={id}>
           <IMG src={image} alt={`Poster Movie of ${title}`}/>
-          <h1>{title}</h1>
+          <h1>{title} </h1>
           <p>Director: {director}</p>
           <p>Episode: {episode}</p>
           <p>Release Date: {dateMovie}</p>
-          <br />
+          <br/>
           <p>{sinopse}</p>
         </Movie>
         </>
