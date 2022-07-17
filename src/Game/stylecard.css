@@ -1,13 +1,13 @@
 .card {
-    position: relative;
-    z-index: 1;
-  }
-  .card img {
-    width: 100%;
-    height: 250px;
-    display: block;
-  }
-  /* front of card - the picture */
+  position: relative;
+  z-index: 1;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  display: block;
+}
+/* front of card - the picture */
 .card .front {
   transform: rotateY(90deg);
   transition: all ease-in 0.2s;
